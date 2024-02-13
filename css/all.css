@@ -1,0 +1,407 @@
+**************************************************              GENERAL RESET STYLES             **************************************************
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+* {}
+*:focus {outline: none;}
+body {
+    line-height:1;
+    margin: 0;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+ol, ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+img {
+    border-style:none;
+    max-width:100%;
+}
+form fieldset {
+    margin:0;
+    padding:0;
+    border:none;
+}
+input, textarea, select {
+    vertical-align:middle;
+    color:#000;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+/*input::-webkit-input-placeholder{color:#333333;}*/
+/*input:focus::-webkit-input-placeholder{color:#333333;}*/
+/*@media*/
+
+/* @media (min-width: 1921px){} 													QHD \ UHD
+@media (min-width: 1600px) and (max-width: 1919px) {}	HD +
+@media (min-width: 1440px) and (max-width: 1599px) {}	macbook
+@media (min-width: 1360px) and (max-width: 1439px) {}	HD
+@media (min-width: 1280px) and (max-width: 1359px) {} IPAD2
+@media (min-width: 1024px) and (max-width: 1279px) {} IPAD
+@media (min-width: 896px) and (max-width: 1023px) {}	Ip Xs max horizontal
+@media (min-width: 812px) and (max-width: 895px) {}		Ip Xs horizontal
+@media (min-width: 768px) and (max-width: 811px) {}		Tablet
+@media (min-width: 736px) and (max-width: 767px) {}		Ip 6,7,8 Plus horizontal
+@media (min-width: 667px) and (max-width: 735px) {}		Ip 6,7,8 horizontal
+@media (min-width: 568px) and (max-width: 666px) {}		Ip 5 horizontal
+@media (min-width: 480px) and (max-width: 567px) {}		Ip 4 horizontal
+@media (min-width: 414px) and (max-width: 479px) {}		Ip 6,7,8
+@media (min-width: 320px) and (max-width: 413px) {}		Ip 4,5 */
+
+/*@media end*/
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background.png);
+    background-repeat:no-repeat;
+    background-size: cover ;
+    overflow: hidden;
+    font-family: Tahoma, sans-serif;
+}
+header{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+a{
+    color: #badade;
+    font-size: 14px;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*Forma-1*/
+
+.container-forma{
+    width: 450px;
+    height: 500px;
+    background-color: #355d62;
+    /*background-color: #ffffff;*/
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+    margin: 100px auto 100px auto;
+    text-align: center;
+    border-top: 5px solid #54d6ee;
+}
+.container-forma input[type="text"], input[type="password"]{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #9a9e9c;
+    padding-left: 40px;
+}
+
+.user-img{
+    position: relative;
+    top: -60px;
+    width: 124px;
+    height: 120px;
+    margin: 0 auto;
+    border: 5px solid #54d6ee;
+    border-radius: 50%;
+    background: #4cc7cb;
+}
+.user-img img{
+    width: 100%;
+    height: 100%;
+}
+.submit{
+    padding: 10px 30px;
+    margin: 5px 0 20px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #24a7ac;
+    cursor: pointer;
+    border: none;
+    border-bottom: 4px solid #54d6ee;
+
+}
+.submit:hover{
+    transition: all 0.5s;
+    background-color: #54d6ee;
+}
+.input{
+    position: relative;
+    height: auto;
+    width: auto;
+}
+.input .fa{
+    font-size: 25px;
+    color: #9a9e9c;
+    position: absolute;
+    left: 65px;
+    top: 15px;
+}
+
+input:focus > .fa{
+    color: #c0392b;
+}
+.socials{
+    margin-top: 20px;
+}
+.socials .fa{
+    padding: 10px;
+    color: #9dada5;
+    font-size: 20px;
+}
+.socials .fa:hover{
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+/*Forma-2*/
+
+.container-2{
+    width: 450px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #9a9e9c;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+}
+.container-2 input[type="text"]{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #9a9e9c;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-2 textarea[type="text"]{
+    width: 300px;
+    height: 80px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #9a9e9c;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+.container-2 label{
+    display: block;
+    padding-bottom: 10px;
+    width: auto;
+    text-align: left;
+    padding-left: 65px;
+    font-size: 18px;
+}
+.form-2{
+    margin-top: 50px ;
+}
+.bottom-form{
+    padding: 30px 65px 0 65px;
+    display: block;
+    width: 100%;
+    height: 101px;
+    background-color: #9dada5;
+    box-sizing: border-box;
+}
+.bottom-form input[type="checkbox"]{
+    margin-top: 12px;
+    position: relative;
+    float: left;
+    display: none;
+}
+.bottom-form input[type="button"]{
+    position: relative;
+    float: right;
+}
+.bottom-form label{
+    display: inline-block;
+    padding-top: 10px;
+    float: left;
+    width: auto;
+    padding-left: 10px;
+    vertical-align: middle;
+
+}
+
+.button{
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #36d26a;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+.button:hover{
+    transition: all 0.5s;
+    background-color: #4df384;
+}
+
+.bottom-form input[type=checkbox] + label:before {
+    content: "\2713";
+    color: transparent;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #ebedec;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    margin: -5px 5px 0 0;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+}
+
+.bottom-form input[type=checkbox]:checked + label:before {
+    color: #18f083;
+}
+
+/*Forma-3*/
+.modal-window{
+    position: relative;
+    width: 115px;
+    height: auto;
+    margin: 50px auto;
+}
+.modal-window .feedback{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #287fa3;
+    border-radius: 4px;
+    margin: 50px auto;
+    text-decoration: none;
+}
+.modal-window .feedback:hover{
+    background: #46afdb;
+    transition: all 0.5s;
+}
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div.form-3 {
+    width: 450px;
+    position: relative;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #9a9e9c;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+}
+.form-3 input[type="text"]{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #9a9e9c;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form-3 textarea[type="text"]{
+    width: 300px;
+    height: 80px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #9a9e9c;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+.form-3 label{
+    display: block;
+    padding-bottom: 10px;
+    width: auto;
+    text-align: left;
+    padding-left: 65px;
+    font-size: 18px;
+}
+.form-3 .bottom-form label{
+    padding-left: 10px;
+}
+.close {
+    background: #414e53;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #47c2f5; }
+
+
+
+
